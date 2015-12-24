@@ -1,4 +1,5 @@
-f($_GET['key'] === 'bf9c5a04626cabeb3ef7bdac7a6ae5f9'){
+<?
+if($_GET['key'] === 'bf9c5a04626cabeb3ef7bdac7a6ae5f9'){
 	`git pull`;
 	echo 'success';
 	exit;
